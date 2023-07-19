@@ -18,7 +18,7 @@ service jenkins start
 5. Open this file from Jenkins web 
 cat /var/lib/jenkins/secrets/initialAdminPassword
 6. Copy password and past in Jenkins server --> Continue
-7. New item --> input name --> Freestyl project --> OK --> input the description
+7. New item --> input name (HelloWorldJob--> Freestyl project --> OK --> input the description
 8. Build chose Execute shell
 echo "Hello World"
 uptime
