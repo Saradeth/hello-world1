@@ -8,24 +8,24 @@ Instal Jenkins
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 
-yum install fontconfig java-11-openjdk
-yum install jenkins
+- yum install fontconfig java-11-openjdk
+- yum install jenkins
 
 4. check service Jenkins
-service jenkins status
-service jenkins start
+- service jenkins status
+- service jenkins start
 
 5. Open this file from Jenkins web 
-cat /var/lib/jenkins/secrets/initialAdminPassword
+- cat /var/lib/jenkins/secrets/initialAdminPassword
 6. Copy password and past in Jenkins server --> Continue
 7. New item --> input name (HelloWorldJob--> Freestyl project --> OK --> input the description
 8. Build chose Execute shell
-echo "Hello World"
-uptime
+- echo "Hello World"
+- uptime
 9. Integration Git with Jenkins
 10. Go to Jenkins server -->
-cat /etc/hostname
-hostname jenkins-server
+- cat /etc/hostname
+- hostname jenkins-server
 
 11. Install Git
 yum install git
