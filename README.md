@@ -85,4 +85,11 @@ ll
 cd FirstMavenProject
 ll
 
-
+--> Integrate with Git
+# cat /etc/hostname
+# hostname vasops-test3
+/ yum install git
+1. Go Jenkins web --> Manage Jenkins --> Manage Plugins --> GitHub --> Install without Restart
+2. Goble config
+3. Create job PullCodeFromGit
+/ cd /var/lib/jenkins/workspace/
